@@ -1,4 +1,44 @@
+/* ---------------------------------------General Tags---------------------------------------  */
+:root{
+    bgcolor1: #19d3da
+    textcolor1: #373a40
+}
+
 body{
     font-family: 'Oswald', sans-serif;
 }
 
+
+/* --------------------------------------- Title Section ---------------------------------------  */
+
+/* NavBar  */
+
+.navbar-brand{
+    font-size: 2rem;
+    margin: 0;
+}
+
+.bar-left{
+    margin-right: 8%;
+}
+
+.bar-right{
+    margin-left: 8%;
+}
+
+.nav-link{
+    margin: 0 1rem;
+}
+
+.navbar{
+    background-color: white;
+    font-size: 1.25rem;
+}
+
+/* ----------------------------------------Media Queries --------------------------------------- */
+
+@media (max-width: 1199px){
+    .bar-right, .bar-left, .nav-link{
+        margin: 0;
+    }
+}
