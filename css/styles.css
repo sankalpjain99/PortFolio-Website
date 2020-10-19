@@ -13,6 +13,11 @@ html{
     scroll-behavior: smooth;
 }
 
+h2{
+    text-align: center;
+    padding: 5% 0;
+    font-size: 5vh;
+}
 
 /* --------------------------------------- NavBar ---------------------------------------  */
 
@@ -90,6 +95,33 @@ html{
     font-weight: 300;
 }
 
+/* --------------------------------------- About Me Section ---------------------------------------  */
+
+#AboutMe{
+    text-align: center;
+}
+
+.about-text{
+    padding: 4% 30% 4%;
+    font-size: 1.4rem;
+}
+
+
+.cv-link{
+    padding: 1%;
+    text-decoration: none;
+    border: 1px solid var(--textcolor1);
+    /* background-color: var(--bgcolor); */
+    color: var(--textcolor1);
+}
+
+.cv-link:hover{
+    text-decoration: none;
+    background-color: var(--textcolor1);
+    color: white;
+    border: 1px solid var(--textcolor1);
+    
+}
 
 /* ----------------------------------------Media Queries --------------------------------------- */
 
@@ -109,11 +141,6 @@ html{
         color: var(--textcolor1);
         border: none;
     }
-
-    .navbar-toggler:{
-        border: none;
-    }
-
 }
 
 @media (max-width: 991px){
