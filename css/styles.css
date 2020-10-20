@@ -2,6 +2,7 @@
 :root{
     --bgcolor : rgb(25, 211, 218,0.22);
     --textcolor1: rgb(34, 40, 49);
+    --textcolor2: rgb(98, 103, 110, 0.8);
     --project-box: rgb(196, 198, 200);
 }
 
@@ -103,6 +104,7 @@ h2{
 
 .about-text{
     padding: 4% 30% 4%;
+    color: var(--textcolor1);
     font-size: 1.4rem;
 }
 
@@ -121,6 +123,49 @@ h2{
     color: white;
     border: 1px solid var(--textcolor1);
     
+}
+
+/* --------------------------------------- Education Section ---------------------------------------  */
+
+#Education{
+    background-color: var(--bgcolor);
+    margin-top: 5%;
+    text-align: center;
+    color: var(--textcolor1);
+    padding-bottom: 3%;
+}
+
+.card{
+    background-color: white;
+    width: 70%;
+    border-radius: 10px;
+    padding: 10% 0;
+    border: 0px;
+}
+
+.card1{
+    margin: 0 0 0 auto;
+}
+
+.card2{
+    margin: 0 auto 0;
+}
+
+.card-club{
+    margin-bottom: 5%;
+}
+
+.card h4, .card h3, .card h5, .card h6{
+    font-weight: 400;
+}
+
+.edu-icon{
+    font-size: 4rem;
+    margin: 5% 0;
+}
+
+.edu-sec-text{
+    color: var(--textcolor2);
 }
 
 /* ----------------------------------------Media Queries --------------------------------------- */
