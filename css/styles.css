@@ -24,7 +24,7 @@ h2{
 
 .navbar-brand{
     font-size: 2rem;
-    margin: 0 0 0 1%;
+    margin: 0 2% 0 0;
 }
 
 .bar-left{
@@ -48,7 +48,7 @@ h2{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.22);
 }
 
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+.navbar-light .navbar-nav .nav-link{
     color: var(--textcolor1);
 }
 
@@ -153,7 +153,7 @@ h2{
 }
 
 .card-club{
-    margin-bottom: 5%;
+    margin: 0 0 5%;
 }
 
 .card h4, .card h3, .card h5, .card h6{
@@ -202,6 +202,7 @@ h2{
 #Contact{
     text-align: center;
     padding: 2% 0;
+    background-color: var(--bgcolor);
 }
 
 .contact-icon{
