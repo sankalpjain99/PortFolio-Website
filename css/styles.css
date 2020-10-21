@@ -171,30 +171,42 @@ h2{
 
 /* --------------------------------------- Experience Section ---------------------------------------  */
 
-#experience{
-    text-align: center;
-}
-
-.company-logo{
-    width: 10%;
-    margin: 2% 0;
-}
-
 #experience h3{
     font-size: 4vh;
     font-weight: 400;
+}
+
+.company-logo{
+    margin: 5% 5%;
+    width: 25%;
+}
+
+.left-exp{
+    text-align: right;
+    margin: auto 0 auto 0;
+}
+
+.right-exp{
+    padding: 0;
+}
+
+.exp-row{
+    margin: 0;
 }
 
 #experience h6{
     color: var(--textcolor2);
 }
 
-#experience p{
+#experience li{
     width: 50%;
-    margin: 1% auto 3%;
     color: var(--textcolor2);
     font-size: 2vh;
     font-weight: 300;
+}
+
+#experience ul{
+    padding-left: 3%;
 }
 
 /* --------------------------------------- Contact Me Section ---------------------------------------  */
