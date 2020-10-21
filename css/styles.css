@@ -136,7 +136,7 @@ h2{
     padding-bottom: 3%;
 }
 
-.card{
+.card1, .card2, .card3{
     background-color: white;
     width: 70%;
     border-radius: 10px;
