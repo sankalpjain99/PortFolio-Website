@@ -4,10 +4,11 @@
     --textcolor1: rgb(34, 40, 49);
     --textcolor2: rgb(98, 103, 110, 0.8);
     --project-box: rgb(196, 198, 200);
+    --main-font: 'Oswald', sans-serif;
 }
 
 body{
-    font-family: 'Oswald', sans-serif;
+    font-family: var(--main-font)
 }
 
 html{
@@ -214,6 +215,37 @@ h2{
 #skills{
     background-color: var(--bgcolor);
     margin-top: 5%;
+    padding-bottom: 5%;
+}
+
+.skill-box{
+    background-color: white;
+    padding: 10% 5%;
+    width: 70%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.skill-box-container{
+    margin: 0;
+}
+
+.sbox1{
+    margin: 0 0 0 auto;
+}
+
+.sbox2{
+    margin: 0 auto 0;
+}
+
+.skill-icon{
+    font-size: 2rem;
+    margin: 3% 0 10%;
+}
+
+.skill-text{
+    font-weight: 400;
+    color: var(--textcolor2);
 }
 
 /* --------------------------------------- Projets Section ---------------------------------------  */
