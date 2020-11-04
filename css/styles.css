@@ -3,7 +3,7 @@
     --bgcolor : rgb(25, 211, 218,0.22);
     --textcolor1: rgb(34, 40, 49);
     --textcolor2: rgb(98, 103, 110, 0.8);
-    --project-box: rgb(196, 198, 200);
+    --project-box: rgb(178, 205, 233, 0.5);
     --main-font: 'Oswald', sans-serif;
 }
 
@@ -250,7 +250,30 @@ h2{
 
 /* --------------------------------------- Projets Section ---------------------------------------  */
 
+.carousel-item{
+    padding: 0% 25% 5%;
+}
 
+.pro-left{
+    text-align: right;
+}
+
+.tech-points{
+    direction: rtl;
+}
+
+.tech-points ul{
+    padding: 5%;
+}
+
+#projects p{
+    color: var(--textcolor2);
+    font-weight: 400;
+}
+
+#projects h6{
+    font-weight: 300;
+}
 
 /* --------------------------------------- Contact Me Section ---------------------------------------  */
 
