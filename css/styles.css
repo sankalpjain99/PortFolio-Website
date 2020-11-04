@@ -356,6 +356,10 @@ h2{
 
 @media (max-width: 1199px){
 
+    html{
+        font-size: 12px;
+    }
+
     /* NavBar  */
     .bar-right, .bar-left{
         margin: 0;
@@ -373,6 +377,10 @@ h2{
 }
 
 @media (max-width: 991px){
+
+    html{
+        font-size: 10px;
+    }
 
     /* Title Section  */
 
