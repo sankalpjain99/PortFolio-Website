@@ -3,7 +3,7 @@
     --bgcolor : rgb(25, 211, 218,0.22);
     --textcolor1: rgb(34, 40, 49);
     --textcolor2: rgb(98, 103, 110, 0.8);
-    --project-box: rgb(178, 205, 233, 0.5);
+    --project-box: rgba(167, 228, 247, 0.2);
     --main-font: 'Oswald', sans-serif;
 }
 
@@ -251,15 +251,22 @@ h2{
 /* --------------------------------------- Projets Section ---------------------------------------  */
 
 .carousel-item{
-    padding: 0% 25% 5%;
+    padding: 0% 25% 8%;
 }
 
 .pro-left{
     text-align: right;
 }
 
+.pro-holder{
+    background-color: var(--project-box);
+    padding: 5%;
+    border-radius: 2%;
+}
+
 .tech-points{
     direction: rtl;
+
 }
 
 .tech-points ul{
@@ -267,12 +274,21 @@ h2{
 }
 
 #projects p{
-    color: var(--textcolor2);
-    font-weight: 400;
+    font-weight: 300;
 }
 
-#projects h6{
-    font-weight: 300;
+.carousel-indicators li{
+    background-color: var(--textcolor1);
+    margin-bottom: 3%;
+}
+
+.link{
+    color: var(--textcolor1);
+    font-size: 1.5rem;
+}
+
+.link:hover{
+    color: var(--textcolor2);
 }
 
 /* --------------------------------------- Contact Me Section ---------------------------------------  */
