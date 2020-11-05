@@ -18,7 +18,7 @@ html{
 h2{
     text-align: center;
     padding: 5% 0;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 /* --------------------------------------- PreLoader ---------------------------------------  */
@@ -165,7 +165,6 @@ h2{
     text-decoration: none;
     border: 1px solid var(--textcolor1);
     border-radius: 10px;
-    /* background-color: var(--bgcolor); */
     color: var(--textcolor1);
 }
 
@@ -396,6 +395,7 @@ h2{
 
     h2{
         font-size: 2rem;
+        padding: 7% 0;
     }
 
     /* Title Section  */
@@ -423,4 +423,20 @@ h2{
     .right-title h1{
         font-size: 3rem;
     }
+
+    /* About Me Section  */
+
+    .dp{
+        width: 15vh;
+    }
+
+    .about-text{
+        padding: 5% 20%;
+    }
+
+    .cv-link{
+        padding: 1.5%;
+    }
+
+
 }
