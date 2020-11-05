@@ -443,7 +443,11 @@ h2{
 
     .cv-link{
         padding: 1.5%;
-        ;
+    }
+
+    .cv-link:visited, .cv-link:focus{
+        text-decoration: none;
+        color: var(--textcolor1);
     }
 
 
