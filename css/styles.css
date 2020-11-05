@@ -169,13 +169,15 @@ h2{
     color: var(--textcolor1);
 }
 
-.cv-link:hover{
-    text-decoration: none;
-    background-color: var(--textcolor1);
-    color: white;
-    border: 1px solid var(--textcolor1);
-    
+@media (hover: hover){
+    .cv-link:hover{
+        text-decoration: none;
+        background-color: var(--textcolor1);
+        color: white;
+        border: 1px solid var(--textcolor1);
+    }
 }
+
 
 /* --------------------------------------- Education Section ---------------------------------------  */
 
