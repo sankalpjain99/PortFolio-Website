@@ -229,13 +229,13 @@ h2{
 /* --------------------------------------- Experience Section ---------------------------------------  */
 
 #experience h3{
-    font-size: 4vh;
+    font-size: 3vh;
     font-weight: 400;
 }
 
 .company-logo{
     margin: 5% 5%;
-    width: 25%;
+    width: max(14vh, 13vw);
 }
 
 .left-exp{
@@ -479,11 +479,17 @@ h2{
         font-size: 3vh;
     }
 
+    /* Experience Section  */
+
+    #experience li{
+        font-size: 2vh;
+        width: 60%;
+    }
 }
 
   /* For Mobile  */
   
-@media (max-width: 768px){
+@media (max-width: 767px){
 
     h2{
         font-size: 2rem;
@@ -511,5 +517,34 @@ h2{
     .card h4, .card h3, .card h5, .card h6{
         font-size: max(1.5vh, 3vw);
     }
+
+    /* Experience Section  */
+
+    .company-logo{
+        margin-left: 0;
+    }
+
+    .left-exp{
+        text-align: left;
+        padding-left: 10%;
+    }
+
+    .right-exp{
+        padding-left: 10%;
+    }
+
+    #experience h3{
+        font-size: 2vh;
+    }
+
+    #experience li{
+        font-size: 1.5vh;
+        width: 60%;
+    }
+
+    #experience ul{
+        padding-left: 6%;
+    }
+
 
 }
