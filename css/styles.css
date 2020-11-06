@@ -546,5 +546,11 @@ h2{
         padding-left: 6%;
     }
 
+    /* Contact Me Section  */
+
+    .contact-icon{
+        margin: 30px 2%;
+    }
+
 
 }
