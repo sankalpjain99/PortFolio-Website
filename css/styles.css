@@ -160,6 +160,9 @@ h2{
     font-weight: 300;
 }
 
+.dp{
+    width: 20vw;
+}
 
 .cv-link{
     padding: 1%;
@@ -211,6 +214,7 @@ h2{
 
 .card h4, .card h3, .card h5, .card h6{
     font-weight: 400;
+    font-size: max(1.3vw, 2vh);
 }
 
 .edu-icon{
@@ -383,21 +387,19 @@ h2{
         color: var(--textcolor1);
         border: none;
     }
-
-    /* Title Section  */
-
-
-
 }
 
-@media (max-width: 991px){
+
+/* For Tablet */
+
+@media (max-width: 992px){
 
     html{
         font-size: 10px;
     }
 
     h2{
-        font-size: 2rem;
+        font-size: 3rem;
         padding: 7% 0;
     }
 
@@ -433,9 +435,9 @@ h2{
         padding-bottom: 3%;
     }
 
-    .dp{
+    /* .dp{
         width: 15vh;
-    }
+    } */
 
     .about-text{
         padding: 6% 20%;
@@ -450,5 +452,64 @@ h2{
         color: var(--textcolor1);
     }
 
+    /* Education Section  */
+
+    .card1{
+        width: 60%;
+        padding: 4%;
+    }
+
+    .card1{
+        margin: 0 auto;
+    }
+
+    .card2-holder{
+        margin: 2% 0 0 13%;
+        padding-right: 0;
+    }
+
+    .card3-holder{
+        margin: 2% 0 0 0;
+        padding-left: 0;
+        position: relative;
+        right: 4%;
+    }
+
+    .edu-icon{
+        font-size: 3vh;
+    }
+
+}
+
+  /* For Mobile  */
+  
+@media (max-width: 768px){
+
+    h2{
+        font-size: 2rem;
+    }
+
+    /* Education Section  */
+
+    .card1, .card3, .card2{
+        width: 60%;
+        padding: 4%;
+        margin: 0 auto 0;
+    }
+
+    .card2-holder{
+        margin: 5% 0 0;
+        padding-right: 15px;
+    }
+
+    .card3-holder{
+        margin: 5% 0 0;
+        right: 0;
+        padding-left: 15px;
+    }
+
+    .card h4, .card h3, .card h5, .card h6{
+        font-size: max(1.5vh, 3vw);
+    }
 
 }
