@@ -330,18 +330,18 @@ h2{
 }
 
 .tech-points li{
-    font-size: max(1vh,1vw);
+    font-size: max(1vw,1.5vh);
 }
 
 #projects p{
     font-weight: 300;
-    font-size: max(1vw, 1vh);
+    font-size: max(1vw, 1.5vh);
     text-align: justify;
     text-justify: inter-word;
 }
 
 #projects h4{
-    font-size: max(1.3vw,1vh);
+    font-size: max(1vw,1.5vh);
 }
 
 .carousel-indicators li{
@@ -354,7 +354,7 @@ h2{
 
 .link{
     color: var(--textcolor1);
-    font-size: max(1.5vw,1vh);
+    font-size: max(1.5vw,1.5vh);
 }
 
 .link:hover{
