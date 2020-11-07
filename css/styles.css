@@ -344,14 +344,6 @@ h2{
     font-size: max(1vw,1.5vh);
 }
 
-.carousel-indicators li{
-    background-color: var(--textcolor1);
-    margin-bottom: 3%;
-    border-radius: 100%;
-    width: 0.7vw;
-    height: 0.7vw;
-}
-
 .link{
     color: var(--textcolor1);
     font-size: max(1.5vw,1.5vh);
