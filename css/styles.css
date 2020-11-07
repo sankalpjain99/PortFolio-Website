@@ -352,7 +352,7 @@ h2{
 
 .link{
     color: var(--textcolor1);
-    font-size: 1.5rem;
+    font-size: max(1.5vw,1vh);
 }
 
 .link:hover{
@@ -560,6 +560,28 @@ h2{
 
     #experience ul{
         padding-left: 6%;
+    }
+
+    /* Projects Section  */
+
+    .carousel-item{
+        padding: 0 25% 12%;
+    }
+
+    .pro-left{
+        text-align: left;
+    }    
+
+    .tech-points{
+        direction: ltr;
+    }
+
+    .tech-points ul{
+        padding-bottom: 0;
+    }
+
+    .link{
+        margin-bottom: 3%;
     }
 
     /* Contact Me Section  */
