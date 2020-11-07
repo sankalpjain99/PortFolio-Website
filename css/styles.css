@@ -336,6 +336,9 @@ h2{
 .carousel-indicators li{
     background-color: var(--textcolor1);
     margin-bottom: 3%;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
 }
 
 .link{
@@ -347,6 +350,10 @@ h2{
     color: var(--textcolor2);
 }
 
+.left-arrow, .right-arrow{
+    font-size: 1.5rem;
+    color: var(--textcolor1);
+}
 /* --------------------------------------- Contact Me Section ---------------------------------------  */
 
 #Contact{
