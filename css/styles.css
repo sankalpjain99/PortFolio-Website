@@ -329,8 +329,17 @@ h2{
     padding: 5%;
 }
 
+.tech-points li{
+    font-size: max(1vh,1vw);
+}
+
 #projects p{
     font-weight: 300;
+    font-size: max(1vw, 1vh);
+}
+
+#projects h4{
+    font-size: max(1.3vw,1vh);
 }
 
 .carousel-indicators li{
