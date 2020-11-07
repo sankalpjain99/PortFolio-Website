@@ -336,6 +336,8 @@ h2{
 #projects p{
     font-weight: 300;
     font-size: max(1vw, 1vh);
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 #projects h4{
