@@ -306,7 +306,7 @@ h2{
 .skill-text{
     font-weight: 400;
     color: var(--textcolor2);
-    font-size: max(1.4vw, 1.3vh);
+    font-size: max(1.2vw, 1.3vh);
 }
 
 /* --------------------------------------- Projets Section ---------------------------------------  */
