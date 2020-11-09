@@ -295,13 +295,18 @@ h2{
 }
 
 .skill-icon{
-    font-size: 2rem;
+    font-size: max(1.4vw,1.5vh);
     margin: 3% 0 10%;
+}
+
+#skills h4{
+    font-size: max(1.5vh,1.4vw);
 }
 
 .skill-text{
     font-weight: 400;
     color: var(--textcolor2);
+    font-size: max(1.4vw, 1.3vh);
 }
 
 /* --------------------------------------- Projets Section ---------------------------------------  */
@@ -554,6 +559,25 @@ h2{
 
     #experience ul{
         padding-left: 6%;
+    }
+
+    /* Skills Setion  */
+
+    .skill-box{
+        width: 60%;
+        padding: 5% 2.5%;
+    }
+
+    .sbox1{
+        margin: 0 auto 5%;
+    }
+
+    .sbox3{
+        margin: 5% auto;
+    }
+
+    .skill-icon{
+        font-size: ;
     }
 
     /* Projects Section  */
