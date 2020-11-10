@@ -228,43 +228,96 @@ h2{
 
 /* --------------------------------------- Experience Section ---------------------------------------  */
 
-#experience h3{
-    font-size: 3vh;
-    font-weight: 400;
-}
-
-.company-logo{
-    margin: 5% 5%;
-    width: max(14vh, 13vw);
-}
-
-.left-exp{
-    text-align: right;
-    margin: auto 0 auto 0;
-}
-
-.right-exp{
-    padding: 0;
-}
-
-.exp-row{
-    margin: 0;
-}
-
-#experience h6{
-    color: var(--textcolor2);
-}
-
-#experience li{
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color: var(--textcolor1);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  
+  /* Container around content */
+  .containerr {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
     width: 50%;
-    color: var(--textcolor2);
-    font-size: 2vh;
-    font-weight: 300;
-}
-
-#experience ul{
-    padding-left: 3%;
-}
+  }
+  
+  /* The circles on the timeline */
+  .containerr::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: -9px;
+    background-color: white;
+    border: 3px solid var(--textcolor1);
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  /* Place the container to the left */
+  .left {
+    left: 0;
+  }
+  
+  /* Place the container to the right */
+  .right {
+    left: 50%;
+  }
+  
+  /* Add arrows to the left container (pointing right) */
+  .left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid var(--project-box);
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent var(--project-box);
+  }
+  
+  /* Add arrows to the right container (pointing left) */
+  .right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid var(--project-box);
+    border-width: 10px 10px 10px 0;
+    border-color: transparent var(--project-box) transparent transparent;
+  }
+  
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: -10px;
+  }
+  
+  /* The actual content */
+  .content {
+    padding: 20px 30px;
+    background-color: var(--project-box);
+    position: relative;
+    border-radius: 6px;
+  }
 
 /* --------------------------------------- Skills Section ---------------------------------------  */
 
@@ -494,16 +547,44 @@ h2{
         font-size: 2.5vh;
     }
 
-    /* Experience Section  */
+}
 
-    #experience li{
-        font-size: 2vh;
-        width: 60%;
+/* For Experience TimeLine  */
+
+@media screen and (max-width: 600px) {
+    /* Place the timelime to the left */
+    .timeline::after {
+    left: 31px;
+    }
+
+/* Full-width containers */
+    .containerr {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+    }
+
+/* Make sure that all arrows are pointing leftwards */
+    .containerr::before {
+    left: 60px;
+    border: medium solid var(--project-box);
+    border-width: 10px 10px 10px 0;
+    border-color: transparent var(--project-box) transparent transparent;
+    }
+
+/* Make sure all circles are at the same spot */
+    .left::after, .right::after {
+    left: 20px;
+    }
+
+/* Make all right containers behave like the left ones */
+    .right {
+    left: 0%;
     }
 }
 
-  /* For Mobile  */
-  
+
+/* For Mobile  */
 @media (max-width: 767px){
 
     h2{
@@ -531,34 +612,6 @@ h2{
 
     .card h4, .card h3, .card h5, .card h6{
         font-size: max(1.5vh, 2vw);
-    }
-
-    /* Experience Section  */
-
-    .company-logo{
-        margin-left: 0;
-    }
-
-    .left-exp{
-        text-align: left;
-        padding-left: 10%;
-    }
-
-    .right-exp{
-        padding-left: 10%;
-    }
-
-    #experience h3{
-        font-size: 2vh;
-    }
-
-    #experience li{
-        font-size: 1.5vh;
-        width: 60%;
-    }
-
-    #experience ul{
-        padding-left: 6%;
     }
 
     /* Skills Setion  */
