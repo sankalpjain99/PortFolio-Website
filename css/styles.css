@@ -251,7 +251,7 @@ h2{
     padding: 10px 40px;
     position: relative;
     background-color: inherit;
-    width: 50%;
+    width: 40%;
   }
   
   /* The circles on the timeline */
@@ -270,7 +270,7 @@ h2{
   
   /* Place the container to the left */
   .left {
-    left: 0;
+    left: 10%;
   }
   
   /* Place the container to the right */
@@ -317,6 +317,14 @@ h2{
     background-color: var(--project-box);
     position: relative;
     border-radius: 6px;
+  }
+
+  #experience h3{
+      font-weight: 400;
+  }
+
+  #experience h5{
+      font-weight: 300;
   }
 
 /* --------------------------------------- Skills Section ---------------------------------------  */
@@ -573,6 +581,11 @@ h2{
     }
 
 /* Make sure all circles are at the same spot */
+
+    .left{
+        left: 0;
+    }
+
     .left::after, .right::after {
     left: 20px;
     }
