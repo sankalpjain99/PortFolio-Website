@@ -4,7 +4,8 @@
     --textcolor1: rgb(34, 40, 49);
     --textcolor2: rgb(98, 103, 110, 0.8);
     --project-box: rgba(167, 228, 247, 0.2);
-    --main-font: 'Oswald', sans-serif;
+    --main-font: 'Spartan', sans-serif;
+    --sec-font: 'Josefin Slab', serif;
 }
 
 body{
@@ -72,7 +73,7 @@ h2{
 }
 
 .bar-left{
-    margin-right: 8%;
+    margin-right: 7%;
 }
 
 .bar-right{
@@ -85,7 +86,7 @@ h2{
 
 .navbar{
     background-color: white;
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 .shadow-header{
@@ -120,6 +121,7 @@ h2{
 .left-title h1{
     font-size: 6rem;
     font-weight: 400;
+    font-family: var(--sec-font);
 }
 
 .left-title h3{
@@ -147,6 +149,10 @@ h2{
     font-weight: 300;
 }
 
+.right-title h1{
+    font-family: var(--sec-font);
+}
+
 /* --------------------------------------- About Me Section ---------------------------------------  */
 
 #AboutMe{
@@ -157,7 +163,7 @@ h2{
 .about-text{
     padding: 4% 30% 4%;
     color: var(--textcolor1);
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 300;
     margin: 0;
 }
@@ -211,7 +217,7 @@ h2{
 
 .card h4, .card h3, .card h5, .card h6{
     font-weight: 400;
-    font-size: max(1.3vw, 1.5vh);
+    font-size: max(1vw, 1.5vh);
 }
 
 .edu-icon{
@@ -317,6 +323,7 @@ h2{
   }
 
   #experience h3{
+      font-size: 1.5rem;
       font-weight: 400;
   }
 
@@ -358,13 +365,13 @@ h2{
 }
 
 #skills h4{
-    font-size: max(1.5vh,1.4vw);
+    font-size: max(1.5vh,1.2vw);
 }
 
 .skill-text{
     font-weight: 400;
     color: var(--textcolor2);
-    font-size: max(1.2vw, 1.3vh);
+    font-size: max(1vw, 1.3vh);
 }
 
 /* --------------------------------------- Projets Section ---------------------------------------  */
@@ -405,6 +412,7 @@ h2{
 
 #projects h4{
     font-size: max(1vw,1.5vh);
+    font-weight: 500;
 }
 
 .link{
