@@ -151,6 +151,7 @@ h2{
 
 #AboutMe{
     text-align: center;
+    padding-bottom: 5%;
 }
 
 .about-text{
@@ -158,35 +159,31 @@ h2{
     color: var(--textcolor1);
     font-size: 1.4rem;
     font-weight: 300;
+    margin: 0;
 }
 
 .dp{
     width: 20vw;
 }
 
-.cv-link{
-    padding: 1%;
-    text-decoration: none;
+.link-btn{
     border: 1px solid var(--textcolor1);
-    border-radius: 10px;
-    color: var(--textcolor1);
+    padding: 1% 2%;
+    border-radius: 2em;
 }
 
-@media (hover: hover){
-    .cv-link:hover{
-        text-decoration: none;
-        background-color: var(--textcolor1);
+
+@media(hover:hover){
+    .link-btn:hover{
         color: white;
-        border: 1px solid var(--textcolor1);
+        background-color: var(--textcolor1);
     }
 }
-
 
 /* --------------------------------------- Education Section ---------------------------------------  */
 
 #Education{
     background-color: var(--bgcolor);
-    margin-top: 5%;
     text-align: center;
     color: var(--textcolor1);
     padding-bottom: 3%;
@@ -507,14 +504,6 @@ h2{
 
     /* About Me Section  */
 
-    #AboutMe{
-        padding-bottom: 3%;
-    }
-
-    /* .dp{
-        width: 15vh;
-    } */
-
     .about-text{
         padding: 6% 20%;
     }
@@ -602,6 +591,16 @@ h2{
 
     h2{
         font-size: 2rem;
+    }
+
+    /* About Me Section  */
+
+    #AboutMe{
+        padding-bottom: 7%;
+    }
+
+    .link-btn{
+        padding: 2% 3%;
     }
 
     /* Education Section  */
