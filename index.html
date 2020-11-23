@@ -26,6 +26,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
+    <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script> -->
+
 </head>
 <body>
 
@@ -92,7 +94,21 @@
             </div>
             <div class="col-lg-5 right-title">
                 <h3>I'm a</h3>
-                <h1>Software Engineer</h1>
+                <h1 id="type-effect"></h1>
+                <script src="typed.min.js"></script>
+                <script>
+                    var typed = new Typed("#type-effect", {
+                        strings: [
+                            "Software Engineer",
+                            "Data Scientist",
+                            "Graphic Designer",
+                            "Web Developer"
+                        ],
+                        typeSpeed: 50,
+                        backSpeed: 50,
+                        loop: true
+                    });
+                </script>
                 <!-- <h3>I'm a Web Developer</h3>
                 <h3>I'm a Graphic Designer</h3> -->
             </div>
