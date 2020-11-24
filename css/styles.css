@@ -446,14 +446,34 @@ h2{
     background-color: var(--bgcolor);
 }
 
-.contact-icon{
-    font-size: 1.5rem;
-    margin: 30px 1% 20px;
-    color: var(--textcolor1);
+#Contact #social{
+    margin: 20% 0 5%;
 }
 
-.contact-icon:hover{
-    color: var(--textcolor2);
+.contact-icon{
+    width: 15%;
+    margin: 5% 2% 0;
+}
+
+.contact-box{
+    background-color: white;
+    width: 50%;
+    margin: 0 auto 4%;
+    border-radius: 20px;
+    padding: 5% 3%;
+}
+
+.email-icon{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+}
+
+.insta{
+    width: 10%;
 }
 
 /* ----------------------------------------Media Queries --------------------------------------- */
