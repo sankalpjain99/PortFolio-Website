@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sankalp Jain</title>
@@ -10,9 +9,13 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
+    <!-- Animate On Scroll  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- Google Fonts  -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&family=Spartan:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
     <!-- Font Awesome CDN  -->
     <script src="https://kit.fontawesome.com/952f560496.js" crossorigin="anonymous"></script>
 
@@ -81,15 +84,15 @@
 
     <section id="title">
         <div class="row title-container">
-            <div class="col-lg-5 left-title">
+            <div class="col-lg-5 left-title" data-aos="fade-down" data-aos-duration="2000">
                 <h3>Hey, I'm</h3>
                 <h1>Sankalp</h1>
                 <h1>Jain</h1>
             </div>
-            <div class="col-lg-2 line">
+            <div class="col-lg-2 line" data-aos="fade-down" data-aos-duration="2000">
 
             </div>
-            <div class="col-lg-5 right-title">
+            <div class="col-lg-5 right-title" data-aos="fade-down" data-aos-duration="2000">
                 <h3>I'm a</h3>
                 <h1 id="type-effect"></h1>
                 <script src="typed.min.js"></script>
@@ -112,21 +115,21 @@
     </section>
 
     <section id="AboutMe">
-        <h2>About Me</h2>
-        <img src="images/pic.png" alt="Display Picture" class="dp">
-        <p class="about-text">
+        <h2 data-aos="fade-up" data-aos-duration="1000">About Me</h2>
+        <img src="images/pic.png" alt="Display Picture" class="dp" data-aos="zoom-in">
+        <p class="about-text" data-aos="zoom-in">
             An Information Technology undergrad who takes pride in solving algorithmic 
             questions and building models to translate data points into useful insights. 
             Diving into the field of WebDev for now. Aim to combine my knowledge of
             Development and Machine Learning to solve real world business problems. Cheers!
         </p>
-        <a href="Resume.pdf" download target="_blank"><button type="submit" class="btn link-btn"><i class="fas fa-download"></i> &nbsp Download CV</button></a>
+        <a href="Resume.pdf" download target="_blank"><button type="submit" class="btn link-btn" data-aos="zoom-in"><i class="fas fa-download"></i> &nbsp Download CV</button></a>
     </section>
 
     <section id="Education">
-        <h2>Education</h2>
+        <h2 data-aos="fade-up" data-aos-duration="1000">Education</h2>
         <div class="row card-club">
-            <div class="col-lg-4 col-md-12">
+            <div class="col-lg-4 col-md-12" data-aos="zoom-in">
                 <div class="card card1">
                     <i class="fas fa-university edu-icon"></i>
                     <h4>Vellore Institute of Technology</h4>
@@ -136,7 +139,7 @@
                     <h5>CGPA : <span class="edu-sec-text">9.24</span></h6>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-5 card2-holder">
+            <div class="col-lg-4 col-md-5 card2-holder" data-aos="zoom-in">
                 <div class="card card2">
                     <i class="fas fa-school edu-icon"></i>
                     <h4>DLF Public School</h4>
@@ -146,7 +149,7 @@
                     <h5>Percentage : <span class="edu-sec-text">94%</span></h6>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-5 card3-holder">
+            <div class="col-lg-4 col-md-5 card3-holder" data-aos="zoom-in">
                 <div class="card card3">
                     <i class="fas fa-school edu-icon"></i>
                     <h4>DLF Public School</h4>
@@ -160,21 +163,21 @@
     </section>
 
     <section id="experience">
-        <h2>Experience</h2>
-        <div class="timeline">
-            <div class="containerr left">
+        <h2 data-aos="fade-up" data-aos-duration="1000">Experience</h2>
+        <div class="timeline" data-aos="zoom-in">
+            <div class="containerr left" data-aos="fade-right">
               <div class="content">
                 <h3>Intern</h3>
                 <h5>Panasonic<br>July20 - Aug20</h5>
               </div>
             </div>
-            <div class="containerr right">
+            <div class="containerr right" data-aos="fade-left">
               <div class="content">
                 <h3>Design Team Volunteer</h3>
                 <h5>Riviera Design Team<br>Nov18 - March19</h5>
               </div>
             </div>
-            <div class="containerr left">
+            <div class="containerr left" data-aos="fade-right">
                 <div class="content">
                   <h3>Graphic Designer</h3>
                   <h5>Creation Labs (RoverX)<br>Jul18 - Dec18</h5>
@@ -184,9 +187,9 @@
     </section>
 
     <section id="skills">
-        <h2>Skills</h2>
+        <h2 data-aos="fade-up" data-aos-duration="1000">Skills</h2>
         <div class="row skill-box-container">
-            <div class="col-lg-4 col-md-4">
+            <div class="col-lg-4 col-md-4" data-aos="zoom-in">
                 <div class="skill-box sbox1">
                     <h4>Data Science</h4>
                     <i class="far fa-chart-bar skill-icon"></i>
@@ -198,7 +201,7 @@
                     <h5 class="skill-text">PyTorch</h5>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4">
+            <div class="col-lg-4 col-md-4" data-aos="zoom-in">
                 <div class="skill-box sbox2">
                     <h4>Web Development</h4>
                     <i class="fas fa-laptop-code skill-icon"></i>
@@ -208,7 +211,7 @@
                     <h5 class="skill-text">Javascript</h5>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4">
+            <div class="col-lg-4 col-md-4" data-aos="zoom-in">
                 <div class="skill-box sbox3">
                     <h4>Programming Languages</h4>
                     <i class="fas fa-terminal skill-icon"></i>
@@ -220,9 +223,9 @@
     </section>
 
     <section id="projects">
-        <h2>Projects</h2>
+        <h2 data-aos="zoom-in" data-aos-duration="1000">Projects</h2>
 
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-aos="zoom-in">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="row pro-holder">
@@ -347,13 +350,13 @@
     </section>
 
     <section id="Contact">
-        <a target="_blank" href="https://github.com/sankalpjain99"><i class="contact-icon fab fa-github"></i></a>
-        <a target="_blank" href="https://www.kaggle.com/sankalp99"><i class="contact-icon fab fa-kaggle"></i></a>
-        <a target="_blank" href="https://www.instagram.com/__sankalp__jain/"><i class="contact-icon fab fa-instagram"></i></a>
-        <a target="_blank" href="https://www.linkedin.com/in/sankalpjain99/"><i class="contact-icon fab fa-linkedin-in"></i></a>
-        <a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=sankalpjain99@gmail.com"><i class="contact-icon fas fa-envelope"></i></a>
-        <h6>Designed and Developed by Sankalp Jain</h6>
-        <h6>© 2020 </h6>
+        <a data-aos="zoom-in" target="_blank" href="https://github.com/sankalpjain99"><i class="contact-icon fab fa-github"></i></a>
+        <a data-aos="zoom-in" target="_blank" href="https://www.kaggle.com/sankalp99"><i class="contact-icon fab fa-kaggle"></i></a>
+        <a data-aos="zoom-in" target="_blank" href="https://www.instagram.com/__sankalp__jain/"><i class="contact-icon fab fa-instagram"></i></a>
+        <a data-aos="zoom-in" target="_blank" href="https://www.linkedin.com/in/sankalpjain99/"><i class="contact-icon fab fa-linkedin-in"></i></a>
+        <a data-aos="zoom-in" target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=sankalpjain99@gmail.com"><i class="contact-icon fas fa-envelope"></i></a>
+        <h6 data-aos="zoom-in">Designed and Developed by Sankalp Jain</h6>
+        <h6 data-aos="zoom-in">© 2020 </h6>
     </section>
 
     <!-- Script for PreLoader  -->
@@ -368,6 +371,12 @@
             }
             hidePreloader();
         });
+    </script>
+
+    <!-- Script for Animation on Scroll  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 
 </body>
