@@ -97,6 +97,15 @@ h2{
     color: var(--textcolor1);
 }
 
+.navbar-light .navbar-nav .nav-link:hover{
+    color: var(--textcolor1);
+    font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    color: var(--textcolor1);
+    font-weight: 700;
+}   
 
 /* --------------------------------------- Title Section ---------------------------------------  */
 
