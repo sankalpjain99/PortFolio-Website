@@ -457,10 +457,23 @@ h2{
 
 .contact-box{
     background-color: white;
-    width: 50%;
+    width: 60%;
     margin: 0 auto 4%;
     border-radius: 20px;
     padding: 5% 3%;
+}
+
+.contact-text{
+    font-size: max(1.2vh, 1.3vw);
+}
+
+.email{
+    color: var(--textcolor1);
+}
+
+.email:hover{
+    color: var(--textcolor2);
+    text-decoration: none;
 }
 
 .email-icon{
@@ -707,5 +720,20 @@ h2{
         margin: 30px 2% 15px;
     }
 
+    .contact-image-box{
+        display: none;
+    }
+
+    #Contact #social{
+        margin: 10% 0 5%;
+    }
+
+    .contact-box{
+        margin-bottom: 10%;
+    }
+
+    .contact-icon{
+        margin-top: 2%;
+    }
 
 }
